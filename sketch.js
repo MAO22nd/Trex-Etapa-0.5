@@ -16,7 +16,7 @@ function setup(){
   
   //adicione dimensão e posição ao trex
   ground = creatSprite (200,180,400,20);
-  ground.addImage("ground"groundImage);
+  ground.addImage("ground",groundImage);
   ground.x - ground.width/2;
   trex.scale = 0.5;
   trex.x = 50
