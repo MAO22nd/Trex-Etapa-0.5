@@ -41,6 +41,6 @@ function draw(){
   trex.velocityY = trex.velocityY + 0.5;
   
  //impedir que o trex caia
-  trex.collide(edges[3])
+  trex.collide(ground)
   drawSprites();
 }
